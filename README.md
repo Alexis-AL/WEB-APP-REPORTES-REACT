@@ -21,7 +21,7 @@ Para que el cliente pueda utilizar la app, es necesario *servirla*. Para ello, e
 3. Clonar la nueva versión.
 4. Descargar las dependencias del proyecto con el comando ```npm i```.
 5. Instalar pm2 con el comando ```sudo npm install -g pm2```
-6. En el archivo de configuración, cambiar Localhost por la dirección de la página + /api ```(http://rssalud.cualtos.udg.mx:443/api)```.
+6. En el archivo de configuración, cambiar Localhost por la dirección de la página + /api ```-```.
 7. Agregar ```'react/jsx-no-bind': ['warn']```, en el archivo .eslintrc.js
 8. Compilar con ```sudo npm run build```
 9. Subir una carpeta y correr con ```sudo pm2 serve build 80 --spa```. 
