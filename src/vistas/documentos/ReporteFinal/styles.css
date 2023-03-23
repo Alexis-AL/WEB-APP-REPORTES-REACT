@@ -1,0 +1,22 @@
+
+
+.celda-campo {
+  width: 17%;
+}
+
+.celda-valor {
+  width: 35%;
+}
+
+#tabla-datos-generales {
+  height: 30mm;
+  padding-bottom: 5rem;
+}
+
+#titulo-objetivos{
+  height: 5mm;
+}
+
+#objetivos-del-programa-contenido {
+  height: 25mm;
+}

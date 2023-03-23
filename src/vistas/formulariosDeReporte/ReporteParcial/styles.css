@@ -1,0 +1,117 @@
+table {
+  width: 100%;
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+th, td {
+  font-size: 1.2rem;
+  padding: 0.2rem;
+  border: 1px solid black;
+}
+
+.input {
+  font-size: 0.9rem;
+}
+
+.input-formulario {
+  margin: 1px;
+  padding: 2px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #70757a;
+  border-radius: 2px;
+  box-shadow: 0px 1px 1px #dadce0;
+}
+
+select {
+  margin: 1px;
+  padding: 2px;
+  border-radius: 2px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #70757a;
+  font-family: sans-serif;
+  box-shadow: 0px 1px 1px #dadce0;
+}
+
+.input-formulario:focus, select:focus {
+  outline: none;
+  box-shadow: 0px 0px 0px 2px #dadce0;
+}
+
+.total {
+  font-size: 1.4rem;
+  font-weight: bold;
+}
+
+.btn-redondo {
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%;
+  font-size: 2rem;
+  text-align: center;
+  background-color: #FF91ED;
+  border-radius: 50%;
+  margin: auto;
+  color: white;
+  box-shadow: 0px 0px 0px 3px #FF91ED75;
+}
+
+.btn-redondo:hover {
+  cursor: pointer;
+  background-color: white;
+  color: #FF91ED;
+}
+
+.btn-cantidad {
+  display: inline-block;
+  margin-right: 0.5rem;
+}
+
+#ctn-btn-cantidad {
+  text-align: right;
+}
+
+#columna-descripcion {
+  width: 90%;
+  font-size: 1.2rem;
+}
+
+#columna-cantidad {
+  width: 10%;
+  font-size: 1.2rem;
+}
+
+#labelHorasRealizadas {
+  font-weight: bold;
+}
+
+#labelHorasRealizadas {
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+#inputHorasRealizadas {
+  font-size: 1.5rem;
+  width: 100%;
+  display: block;
+  padding: 7px 5px 7px 5px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #70757a;
+  border-radius: 5px;
+  box-shadow: 0px 1px 1px #dadce0;
+  margin-top: 5px;
+  resize: none;
+  font-family: sans-serif;
+}
+
+#inputHorasRealizadas:focus {
+  outline: none;
+  box-shadow: 0px 0px 0px 3px #dadce0;
+}
+
+#btn-guardar {
+  float: right;
+}

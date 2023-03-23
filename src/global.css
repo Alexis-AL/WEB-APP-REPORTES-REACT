@@ -1,0 +1,173 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 75%;
+  font-family: 'Open Sans', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+button {
+  border-style: unset;
+}
+
+.centrar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn-primario {
+  color: white;
+  padding-left: 15px;
+  padding-right: 15px;
+  font-size: 1.4rem;
+  border: 1px solid #CD5700;
+  height: 2.7rem;
+  background-color: #CD5700;
+  border-radius: 20px;
+}
+
+.btn-primario:hover {
+  cursor: pointer;
+  box-shadow: 0px 0px 0px 3px #cd570075;
+}
+
+.btn-primario.iniciar-sesion {
+  display: block;
+  margin: auto;
+  margin-top: 10px;
+}
+
+.btn-secundario {
+  color: white;
+  padding-left: 15px;
+  padding-right: 15px;
+  font-size: 1.4rem;
+  height: 2.7rem;
+  background-color: #FF9F45;
+  border-radius: 20px;
+}
+
+.btn-secundario:hover {
+  cursor: pointer;
+  box-shadow: 0px 0px 0px 3px #FF9F4575;
+}
+
+.btn-terciario {
+  font-size: 1.4rem;
+  border: 1px solid black;
+  height: 2.5rem;
+  background-color: #ff2020;
+  border-radius: 10%;
+}
+
+.btn-link {
+  display: table-cell;
+  text-decoration: none;
+  color: white;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.br {
+  height: 5mm;
+}
+
+.ctn-btn-link {
+  display: inline-block;
+}
+
+.ctn-btns-descargar-y-modificar {
+  display: flex;
+  z-index: 1;
+  margin-left: 2.5%;
+  gap: 1rem;
+}
+
+.ctn-con-padding {
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 20px;
+}
+
+.fila-actividad {
+  height: 5mm;
+}
+
+.input-sesion {
+  width: 100%;
+  padding: 7px 5px 7px 5px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #70757a;
+  border-radius: 5px;
+  box-shadow: 0px 1px 1px #dadce0;
+  margin-top: 5px;
+}
+
+.input-sesion:focus {
+  outline: none;
+  box-shadow: 0px 0px 0px 3px #dadce0;
+}
+
+.label-sesion {
+  font-size: 16px;
+  margin-bottom: 3px;
+}
+
+.salto-pagina {
+  border-top: 1px dashed blue;
+}
+
+.texto-encabezado {
+  margin-top: 10px;
+  font-size: 2em;
+  color: black;
+}
+
+#pagina-principal-titulo {
+  display: block;
+  width: 100%;
+  margin-top: 30vh;
+  text-align: center;
+  font-size: 300%;
+  color: black;
+}
+
+#pagina-principal-texto {
+  display: block;
+  width: 90%;
+  margin-left: 5%;
+  margin-top: 20px;
+  text-align: center;
+  font-size: 150%;
+  color: black;
+}
+
+.pagina {
+  font-family: 'helvetica', sans-serif;
+  font-size: 90%;
+  width: 100%;
+  margin-left: 0%;
+  border: 1px solid #dadce0;
+  padding: 10px 10px;
+  box-shadow: 0px 5px 8px 5px #dadce0;
+  border-radius: 15px;
+}
+
+.reduced-size {
+  font-size: 0.9rem !important;
+}
+
+@media only screen and (min-width: 768px) {
+  .pagina {
+    width: 95%;
+    margin-left: 2.5%;
+  }
+}
+
+.espacio {
+  height: 80mm;
+}
